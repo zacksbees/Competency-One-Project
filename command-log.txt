@@ -1,0 +1,34 @@
+CLI FILE RESCUE COMMAND LOG
+
+Student: Zackary Nizker
+Date: Today
+
+Paste or type the important commands you used below. Add a short explanation beside commands marked by your teacher during the mastery conference.
+
+1. ls (Displays contents/folders/sub-directories within the current directory)
+2. cd <folder> (Open/go into specified folder)
+3. cd.. (Moves you back into the previous folder)
+4. cat <file> (Displays the contents of a specified text file.)
+5. clear (Clears annoying junk from the screen)
+6. mkdir <new file> (Make a directory)
+7. sls "<string>" <file> (Searches specified file for the entered string)
+8. gc (Displays the first specified number of strings.)
+9. pwd (Displays current location within directories)
+10. man <command> (Manuel for given command)
+11. mv (Move a file)
+12. cp (Copy item into specified directory)
+13. del (Deletes file)
+14. ac (Adds content to a specified file)
+15. ni (Make a new text file)
+
+One command using a relative path: cd..
+
+One command using .. in a path: mv <file.txt> ..
+
+One find command: sls
+
+One grep command: sls
+
+One command using output redirection: get-item -Path .\<file.txt> | gc -Tail <#>
+
+One command using a pipe: ls -filter *.txt -recurse | sls -pattern "<string>"

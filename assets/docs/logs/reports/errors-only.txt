@@ -1,0 +1,3 @@
+development.log:3:2026-07-14 ERROR Player spawn point not configured
+development.log:5:2026-07-15 ERROR Inventory test failed
+development.log:6:2026-07-15 ERROR Save directory unavailable
